@@ -112,7 +112,7 @@
 #include "mappings.h"
 #include "netsimple.h"
 
-/********************************************************************/
+/*******************************************************************
 
 #if LUA_VERSION_NUM > 501
 static size_t lua_objlen(lua_State *L,int index)
@@ -125,7 +125,7 @@ static size_t lua_objlen(lua_State *L,int index)
 }
 #endif
 
-/********************************************************************/
+********************************************************************/
 
 static bool parse_edns0_opt(lua_State *L,edns0_opt_t *opt)
 {
